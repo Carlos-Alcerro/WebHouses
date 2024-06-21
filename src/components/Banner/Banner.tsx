@@ -9,8 +9,8 @@ export function Banner() {
             Descubre la vivienda ideal para tu familia en toda Honduras
           </h2>
           <p className="mt-2 text-xl md:mt-8">
-            Con mas de 30 anos de experiencia, en TarreRealState contamos con
-            los mejores profesionales para lo que necesites.
+            Con mas de 30 anos de experiencia, en Web-Houses contamos con los
+            mejores profesionales para lo que necesites.
           </p>
         </div>
         <FloatedSearch />

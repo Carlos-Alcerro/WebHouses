@@ -17,7 +17,6 @@ export function Slider() {
       scrollbar={{ draggable: true }}
       modules={[Navigation, Scrollbar]}
       className="h-[240px] md:h-[320px] w-[300px] md:w-[500px]"
-      grabCurso
     >
       {sliderDataImages.map(({ id, urlImage }) => (
         <SwiperSlide key={id}>

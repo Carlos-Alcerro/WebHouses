@@ -21,7 +21,7 @@ export function Footer() {
           </div>
         ))}
         <div className="md:text-red ">
-          <h4 className="mb-6 text-xl font-semibold">TarreRealState</h4>
+          <h4 className="mb-6 text-xl font-semibold">Web-Houses</h4>
           <p className="">Calle random</p>
           <p>Comayagua, Comayagua</p>
           <div className="flex gap-4 mt-5 md:justify-start ">

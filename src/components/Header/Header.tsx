@@ -13,7 +13,7 @@ export function Header() {
     <div className="container mx-auto my-5">
       <div className="flex items-center justify-between px-5 md:px-0">
         <Link href="/">
-          <h1 className="font-medium ">TarreRealState</h1>
+          <h1 className="font-medium ">Web-Houses</h1>
         </Link>
 
         <CiMenuFries

@@ -6,13 +6,18 @@ import "leaflet/dist/leaflet.css";
 import { Transition } from "../Transition/Transition";
 import { MarkerHouse } from "./MarkerHouse/MarkerHouse";
 
+type PositionType = {
+  lat: number;
+  lng: number;
+};
+
 export function Location() {
   const coordinatePoint = {
     lat: 40.463667,
     lng: -3.74922,
   };
 
-  const centerMarker = ({ position, fnMap }) => {
+  const centerMarker = (position: PositionType, fnMap: Map) => {
     fnMap.flyTo({
       lat: position.lat,
       lng: position.lng,
